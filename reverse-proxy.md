@@ -385,6 +385,8 @@ Second, see these screenshots for a working config:
 
 ![grafik](https://user-images.githubusercontent.com/75573284/213889797-42642302-b079-4378-a4a6-079f4f67058c.png)
 
+Note: HSTS should not be enabled in NPM as the built-in caddy already adds the respective header. If still enabled Mozilla Observatory and SSLlabs report an HSTS-error (Mozilla) / "npm Server provided more than one HSTS header" (SSLlabs).
+
 ![grafik](https://user-images.githubusercontent.com/75573284/213889746-87dbe8c5-4d1f-492f-b251-bbf82f1510d0.png)
 
 ```
